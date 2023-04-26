@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-top {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.footer-card1 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 1.5rem;
+}
+
+.footer-card1 div {
+    display: grid;
+    gap: .5rem;
+}
+.footer-card1 div span p:last-child {
+    font-weight: lighter;
+}
+
+.footer-card1 section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-icon {
+    font-size: 1.8rem;
+    padding: .3rem;
+    background-color: rgb(235, 229, 229);
+    border-radius: 50%;
+}
+
+.foot-icon:first-child:hover {
+    color: white;
+    background-color: rgb(54, 147, 184);
+}
+
+.foot-icon:nth-child(2):hover {
+    color: white;
+    background-color: skyblue;
+}
+
+.foot-icon:last-child:hover {
+    color: white;
+    background-color: rgb(164, 8, 8);
+}
+
+
+.footer-card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer-sub1 {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    padding: 1rem 0;
+    gap: 2rem;
+}
+
+.footer-sub1 input {
+    width: 15rem;
+    outline: none;
+    padding: .3rem .2rem;
+}
+.footer-sub1 div:first-child {
+    display: grid;
+    gap: 1.2rem;
+}
+.footer-sub1 div:first-child p {
+    font-weight: lighter;
+}
+.footer-sub1 div:last-child {
+    border: none;
+}
+.footer-sub1 div:last-child button {
+    padding: .4rem;
+    background-color: rgb(12, 133, 181);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.footer-sub1 div:last-child button:hover {
+    background-color: rgb(79, 187, 229);
+}
+
+.footer-sub2 {
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+}
+.footer-sub2 div {
+    display: grid;
+    gap: 1rem;
+}
+
+.footer-sub2 section {
+    display: flex;
+    gap: 5rem;
+}
+
+.footer-sub2 section ul {
+    list-style: none;
+    line-height: 1.5rem;
+    font-weight: lighter;
+}
+
+
+
+
+
+.footer2 {
+    width: 80%;
+    display: grid;
+}
+
+.footer2-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}

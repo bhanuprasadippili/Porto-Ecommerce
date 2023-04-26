@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-top {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.navbar-top img {
+    width: 8%;
+}
+
+.navbar-top p {
+    padding: .5rem;
+    border: .1px solid rgb(185, 179, 179);
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.navbar-top p input,select {
+    border: none;
+    outline: none;
+    padding-left: .2rem;
+}
+
+.navbar-dial {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: .8rem;
+}
+
+.navbar-dial span {
+    display: grid;
+}
+
+.dial {
+    font-size: 1.5rem;
+}
+
+.prof {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.cart-product {
+    display: flex;
+    position: relative;
+}
+
+.count {
+    position: absolute;
+    top: -.5rem;
+    left: 60%;
+    font-size: 1rem;
+    padding: .1rem;
+    background-color: red;
+    border-radius: 40%;
+    color: white;
+}

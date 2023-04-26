@@ -1,0 +1,11 @@
+.productitem-top{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.product-group {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    gap: 2rem;
+}

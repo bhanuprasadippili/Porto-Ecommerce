@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar2-top {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem .5rem;
+    background-color: rgb(54, 54, 179);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar2-top ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 1rem;
+}

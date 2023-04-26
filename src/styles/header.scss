@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;padding: 1rem 0;
+}
+
+.header-bar {
+    display: flex;
+    gap: 1rem;
+}
+.header-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.header-tick {
+    display: flex;
+    gap: 1rem;
+}
+.header-tick select {
+    border: none;
+}

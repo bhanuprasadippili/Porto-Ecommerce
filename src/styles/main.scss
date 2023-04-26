@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.main-div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.main-div {
+    line-height: 2rem;
+}
+.icon {
+    font-size: 1.7rem;
+}

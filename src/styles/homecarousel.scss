@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.carousel-container{
+    width: 72rem;
+    height: 31rem;
+    border: 1px solid;
+    overflow: hidden;
+    position: relative;
+
+
+    .carousel-item-cont{
+        display: flex;
+        // flex-direction: row;
+        width: 144rem;
+        height: 31rem;        
+    }
+    .homeCarousel-first{
+        background-image: url(https://d-themes.com/react/porto/demo5/images/home/slider/slide-1.jpg);
+        background-repeat: no-repeat;
+        width: 72rem;
+        height: 31rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 3rem;
+    }
+
+    .homeCarousel-first p {
+        font-size: 1.1rem;
+        font-weight: bold;
+        opacity: .6;
+    }
+
+    .homeCarousel-first h2 {
+        font-family: Segoe Script,Savoye LET;
+        font-size: 3rem;
+    }
+
+    .homeCarousel-first section {
+        display: flex;
+        gap: 1rem;
+    }
+    .homeCarousel-first section span {
+        font-size: 1.6rem;
+    }
+
+    .homeCarousel-first section h1{
+        font-size: 3.8rem;
+    }
+    .homeCarousel-first div {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .homeCarousel-first b {
+        padding: .5rem 1rem;
+        background-color: rgb(210, 78, 78);
+        color: white;
+        transform: rotate(-3deg);
+        font-weight: bold;
+    }
+
+    .homeCarousel-first div button {
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        padding: .8rem 1rem;
+    }
+
+
+    .homeCarousel-last{
+        background-image: url(https://d-themes.com/react/porto/demo5/images/home/slider/slide-2.jpg);
+        background-repeat: no-repeat;
+        width: 72rem;
+        height: 31rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 5rem;
+    }
+
+    .homeCarousel-last h3 {
+        font-size: 2.5rem;
+    }
+
+    .homeCarousel-last section {
+        display: flex;
+        gap: 1rem;
+    }
+    .homeCarousel-last section span {
+        font-size: 1.5rem;
+    }
+
+    .homeCarousel-last section h1{
+        font-size: 3.5rem;
+    }
+    .homeCarousel-last div {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .homeCarousel-last b {
+        color: rgb(210, 78, 78);
+        font-weight: bold;
+    }
+
+    .homeCarousel-last div button {
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        padding: .8rem 1rem;
+    }
+
+    .homeCarousel-last div b {
+        font-size: 1.5rem;
+    }
+
+    .prev{
+        font-size: 1.5rem;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        top: 40%;
+        display: none;
+    }
+    .next{
+        font-size: 1.5rem;
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+        top: 40%;
+        display: none;
+    }
+
+    
+}
+
+.carousel-container:hover .prev{
+    display: block;
+}
+
+
+.carousel-container:hover .next{
+    display: block;
+}

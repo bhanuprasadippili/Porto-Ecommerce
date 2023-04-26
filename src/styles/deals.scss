@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.deals {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    height: 150px;  
+    gap: 1rem;
+}
+
+.watches {
+    width: 100%;
+    background-image: url(https://d-themes.com/react/porto/demo5/images/home/banners/banner-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: grid;
+    justify-content: flex-start;
+    align-items: start;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.watches p {
+    display: flex;
+    align-items: center;
+}
+
+.watches h2 {
+    color: rgb(39, 170, 222);
+}
+
+.watches button {
+    padding: .4rem;
+    color: white;
+    background-color: black;
+}
+
+
+.promos {
+    width: 100%;
+    background-image: url(https://d-themes.com/react/porto/demo5/images/home/banners/banner-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 10px solid rgb(18, 18, 187);
+    display: grid;
+    padding: .5rem 0;
+}
+
+.promos p {
+    display: flex;
+    justify-content: space-around;
+}
+
+.promos div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.promos button {
+    color: white;
+    background-color: black;
+    padding: 0 .3rem;
+    height: 2rem;
+}
+
+
+.bags {
+    width: 100%;
+    background-image: url(https://d-themes.com/react/porto/demo5/images/home/banners/banner-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+
+.bags button {
+    color: white;
+    background-color: black;
+    padding: .5rem;
+}
+
+.bags p {
+    color: rgb(228, 69, 69);
+   font-weight: bold; 
+}

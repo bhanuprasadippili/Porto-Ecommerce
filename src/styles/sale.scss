@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.offer-sale {
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url(https://d-themes.com/react/porto/demo5/images/home/banners/banner-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.offer-sale p {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+}
+
+.offer-sale p button:first-child {
+    transform: rotate(-3deg);
+    color: white;
+    background-color: black;
+    padding: .4rem 0.3rem;
+    border: none;
+}
+
+.offer-sale>button {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    padding: .6rem 0.4rem;
+    border: none;
+}
+
+.offer-sale>button:hover {
+    background-color: rgba(255, 255, 255, 0.741);
+}
